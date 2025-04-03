@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title='Fake Social Media Profile Detection',
                    layout='wide',
                    page_icon=":robot_face")
-xgb=pickle.load(open(r"xgb.sav",'rb'))
+xgb=pickle.load(open(r"xgb2.sav",'rb'))
 
 
 st.title("Fake Social Media Profile Detection using Machine Learning")
